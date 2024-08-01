@@ -7,10 +7,15 @@ app.use(express.urlencoded({ extended: true }));
 
 // Create MySQL connection
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'c237_ca2',
+    // host: 'localhost',
+    // user: 'root',
+    // password: '',
+    // database: 'c237_ca2'
+
+    host: 'db4free.net',
+    user: 'c237ca2',
+    password: 'Senku02*',
+    database: 'c237_ca2'
 });
 
 connection.connect((err) => {
