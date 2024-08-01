@@ -13,7 +13,7 @@ const connection = mysql.createConnection({
     // database: 'c237_ca2'
 
     host: 'db4free.net',
-    user: 'c237ca2',
+    user: 'c237_ca2',
     password: 'Senku02*',
     database: 'c237_ca2'
 });
